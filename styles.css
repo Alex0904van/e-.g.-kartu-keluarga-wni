@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.subheader {
+    font-size: 14px;
+    color: #666;
+}
+
+main {
+    padding: 20px;
+}
+
+.status {
+    text-align: center;
+}
+
+.status img {
+    width: 100px;
+    height: 100px;
+}
+
+.status p {
+    font-size: 18px;
+    color: #333;
+}
+
+.status-active {
+    color: green;
+    font-weight: bold;
+}
+
+.details, .info, .timestamps {
+    margin: 20px 0;
+}
+
+.details p, .info p, .timestamps p {
+    font-size: 16px;
+    color: #333;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #333;
+}
+
+.region, .signature {
+    margin: 10px 0;
+}
